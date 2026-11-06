@@ -1,10 +1,10 @@
 # PCOS Likelihood Quiz
 
-A university data classification project. It estimates the likelihood of PCOS (polycystic ovary syndrome) from answers a person can give at home, with no blood tests, ultrasound or clinic measurements.
+A personal data classification project. It estimates the likelihood of PCOS (polycystic ovary syndrome) from answers a person can give at home, with no blood tests, ultrasound or clinic measurements.
 
-**This is a coursework project, not a medical tool. It cannot diagnose PCOS. If you are worried about your health, speak to a doctor.**
+**This is a personal project, not a medical tool. It cannot diagnose PCOS. If you are worried about your health, speak to a doctor.**
 
-Live quiz: _add your Streamlit link here_
+Live quiz: [https://pcosclassificationandquiz-gzmgksneogiegappjubqkru.streamlit.app/]
 
 ## How it works
 
