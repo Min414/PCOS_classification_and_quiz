@@ -36,7 +36,7 @@ def train():
     # Choose the flagging threshold from out-of-fold predictions
     cv = StratifiedKFold(n_splits=5, shuffle=True, random_state=RANDOM_STATE)
     proba = cross_val_predict(make(), X, y, cv=cv, method="predict_proba")[:, 1]
-    threshold = 0.5
+    threshold = 0.3
     for t in np.arange(0.60, 0.10, -0.05):
         if recall_score(y, (proba >= t).astype(int)) >= TARGET_RECALL:
             threshold = float(t)
@@ -49,7 +49,7 @@ def train():
 model, threshold = train()
 
 st.title("PCOS Likelihood Quiz")
-st.caption("A coursework project. This is not a medical diagnosis.")
+st.caption("A personal project. This is not a medical diagnosis.")
 
 with st.form("quiz"):
     st.subheader("About you")
