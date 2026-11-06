@@ -102,3 +102,5 @@ if submitted:
                    "If you have symptoms that worry you, a doctor can still check.")
     st.caption("This quiz only compares your answers with a small dataset (about 540 patients). "
                "It cannot diagnose PCOS, and some people flagged will not have it.")
+
+st.caption("Data: Kottarathil, P. (2020), Polycystic ovary syndrome (PCOS), Kaggle.")
