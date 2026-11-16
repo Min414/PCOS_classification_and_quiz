@@ -2,7 +2,7 @@ import numpy as np
 import pandas as pd
 import streamlit as st
 
-from sklearn.ensemble import RandomForestClassifier
+from sklearn.linear_model import LogisticRegression
 from sklearn.impute import SimpleImputer
 from sklearn.model_selection import StratifiedKFold, cross_val_predict
 from sklearn.metrics import recall_score
@@ -30,8 +30,7 @@ def train():
     def make():
         return Pipeline([("impute", SimpleImputer(strategy="median")),
                          ("scale", StandardScaler()),
-                         ("clf", RandomForestClassifier(n_estimators=300, class_weight="balanced",
-                                                        random_state=RANDOM_STATE))])
+                         ("clf", LogisticRegression(max_iter=2000, class_weight="balanced"))
 
     # Choose the flagging threshold from out-of-fold predictions
     cv = StratifiedKFold(n_splits=5, shuffle=True, random_state=RANDOM_STATE)
