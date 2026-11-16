@@ -8,7 +8,7 @@ Live quiz: [https://pcosclassificationandquiz-gzmgksneogiegappjubqkru.streamlit.
 
 ## How it works
 
-- A Random Forest model is trained on 541 patients using 16 quiz-friendly features: age, weight, height, BMI, waist and hip, cycle regularity, period length, five symptoms, and two lifestyle questions.
+- A Logistic Regression model is trained on 541 patients using 16 quiz-friendly features: age, weight, height, BMI, waist and hip, cycle regularity, period length, five symptoms, and two lifestyle questions.
 - The quiz flags "higher likelihood" when the model's score passes a threshold chosen to catch about 80% of PCOS cases in cross-validation. Lowering the threshold catches more cases but gives more false alarms.
 - The quiz shows a higher or lower likelihood message only. It does not show a percentage, because the score is not a calibrated risk.
 
