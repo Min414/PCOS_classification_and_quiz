@@ -30,6 +30,10 @@ streamlit run app.py
 
 Then open the link shown in the terminal. It also works in a phone browser on the same wifi.
 
+## Findings and model performance
+
+![Comparing Models](images/model_comparison.png)
+
 ## Limitations
 
 - Only about 540 patients from one source, and 36 PCOS cases in the test set, so results can swing between splits.
