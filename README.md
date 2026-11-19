@@ -19,7 +19,7 @@ Live quiz: [https://pcosclassificationandquiz-gzmgksneogiegappjubqkru.streamlit.
 | `app.py` | The Streamlit quiz app (trains the model on first run) |
 | `PCOS_data.csv` | The dataset (see Data source) |
 | `requirements.txt` | Python packages needed |
-| `PCOS_quiz_model.ipynb` | Notebook with the full analysis: cleaning, model comparison, threshold choice, final test |
+| `PCOS_quiz_model_v2.ipynb` | Notebook with the full analysis: cleaning, model comparison, threshold choice, final test |
 
 ## Run it locally
 
