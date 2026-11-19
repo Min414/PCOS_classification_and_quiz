@@ -33,6 +33,9 @@ Then open the link shown in the terminal. It also works in a phone browser on th
 ## Findings and model performance
 
 ![Comparing Models](images/model_comparison.png)
+![Short description](images/confusion_matrix_and_roc.png)
+![Short description](images/features_by_correlation.png)
+![Short description](images/feature_importance_on_quiz.png)
 
 ## Limitations
 
