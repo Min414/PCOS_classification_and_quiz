@@ -30,7 +30,7 @@ def train():
     def make():
         return Pipeline([("impute", SimpleImputer(strategy="median")),
                          ("scale", StandardScaler()),
-                         ("clf", LogisticRegression(max_iter=2000, class_weight="balanced"))
+                         ("clf", LogisticRegression(max_iter=2000, class_weight="balanced")])
 
     # Choose the flagging threshold from out-of-fold predictions
     cv = StratifiedKFold(n_splits=5, shuffle=True, random_state=RANDOM_STATE)
