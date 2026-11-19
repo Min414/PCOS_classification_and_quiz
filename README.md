@@ -5,6 +5,8 @@ A personal data classification project. It estimates the likelihood of PCOS (pol
 **This is a personal project, not a medical tool. It cannot diagnose PCOS. If you are worried about your health, speak to a doctor.**
 
 Live quiz: [https://pcosclassificationandquiz-gzmgksneogiegappjubqkru.streamlit.app/]
+![quiz_page](images/page.png)
+
 
 ## How it works
 
@@ -33,9 +35,9 @@ Then open the link shown in the terminal. It also works in a phone browser on th
 ## Findings and model performance
 
 ![Comparing Models](images/model_comparison.png)
-![Short description](images/confusion_matrix_and_roc.png)
-![Short description](images/features_by_correlation.png)
-![Short description](images/feature_importance_on_quiz.png)
+![matrix+roc](images/confusion_matrix_and_roc.png)
+![corr](images/features_by_correlation.png)
+![feature_importance](images/feature_importance_on_quiz.png)
 
 ## Limitations
 
